@@ -36,9 +36,9 @@
                     <label for="tempat_lahir"> Tempat Lahir</label>
                     <input class="form-control" type="text"name="tempat_lahir" value="{{$kode->tempat_lahir}}" ><br>
                     <label for="tanggal_lahir">Tanggal Lahir</label>
-                    <input class="form-control" type="text" name="tanggal_lahir" value="{{$kode->tempat_lahir}}" ><br>
+                    <input class="form-control" type="text" name="tanggal_lahir" value="{{$kode->tanggal_lahir}}" ><br>
                     <label for="agama">Agama</label><br>
-                    <select name="agama" id="">
+                    <select class="form-control" name="agama" id="">
                         <option value=""></option>
                         <option value="Islam">Islam</option>
                         <option value="Kristen Protestan">Kristen Protestan</option>
@@ -57,7 +57,7 @@
                     <label for="kode_pos">Kode Pos</label>
                     <input name="kode_pos" class="form-control" type="number" value="{{$kode->kode_pos}}"><br>
                     <label for="jenis_tinggal">Jenis Tinggal</label><br>
-                    <select name="jenis_tinggal" id="">
+                    <select class="form-control" name="jenis_tinggal" id="">
                         <option value=""></option>
                         <option value="Orang Tua">Orang Tua</option>
                         <option value="Wali">Wali</option>
@@ -71,7 +71,7 @@
                     <label for="email">E-mail</label>
                     <input class="form-control" type="email" name="email" value="{{$kode->email}}"><br>
                     <label for="kps">Penerima KPS </label><br>
-                    <select name="kps" id="">
+                    <select class="form-control" name="kps" id="">
                         <option value=""></option>
                         <option value="Ya">Ya</option>
                         <option value="Tidak">Tidak</option>
@@ -79,7 +79,7 @@
                     <label for="asal_sekolah">Asal Sekolah</label>
                     <input class="form-control" type="text" name="asal_sekolah" value="{{$kode->asal_sekolah}}"><br>
                     <label for="pekerjaan">Pekerjaan</label><br>
-                    <select name="pekerjaan">
+                    <select class="form-control" name="pekerjaan">
                         <option value=""></option>
                         <option value="Bekerja">Bekerja</option>
                         <option value="Tidak Bekerja">Tidak Bekerja</option>
@@ -89,19 +89,19 @@
                     <label for="telepon_perusahaan">Telepon Perusahaan</label>
                     <input class="form-control" type="text" placeholder="Di isi jika bekerja" name="telepon_perusahaan" value="{{$kode->telepon_perusahaan}}" id=""><br>
                     <label for="kelas">Pilihan Kelas Perkuliahan</label><br>
-                    <select name="kelas" id="">
+                    <select class="form-control" name="kelas" id="">
                         <option value=""></option>
                         <option value="Pagi">Pagi</option>
                         <option value="Malam">Malam</option>
                     </select>{{$kode->kelas}}<br>
                     <label for="program_studi">Program Studi</label><br>
-                    <select name="program_studi" id="">
+                    <select class="form-control" name="program_studi" id="">
                         <option value=""></option>
                         <option value="Manajemen">Manajemen</option>
                         <option value="Akutansi">Akutansi</option>
                     </select>{{$kode->program_studi}}<br>
                     <label for="gelombang">Gelombang</label><br>
-                    <select name="gelombang" id=""> 
+                    <select class="form-control" name="gelombang" id=""> 
                         <option value=""></option>
                         <option value="Gel I">Gel I</option>
                         <option value="Gel II">Gel II</option>
