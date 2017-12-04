@@ -15,7 +15,7 @@ class MahasiswaController extends Controller
     public function registrasi(Request $request){
         $data['kode']=Users::where('kode_user',$request->kode_user)->first(); 
         return view('mahasiswa.registrasi',$data);
-        // return $data;
+        return $data;
     }
 
     public function update(Request $request,$id){

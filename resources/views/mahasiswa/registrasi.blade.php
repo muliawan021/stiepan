@@ -11,7 +11,7 @@
         <h3>Data Calon Mahasiswa</h3>
         <form action="{{url('mahasiswa/'.$kode->id.'/update')}}" method="post">
         {{csrf_field()}}
-            <label for="">Kode User=</label> 
+            <label>Kode User=</label> 
             <input type="text" name="kode_user" id=""value="{{$kode->kode_user}}" ><br>
             <label for="nama" >Nama Lengkap</label>
             <input type="text" name="nama"  value="{{$kode->nama}}"><br>
@@ -117,5 +117,9 @@
             <input type="text" name="telepon_ibu" id="" value="{{$kode->telepon_ibu}}"><br>
             <button type="submit">Submit</button>
         </form>
+
+<script src="{{url('bower_components/jquery/dist/jquery.min.js')}}"></script>
+<script src="{{url('bower_components/bootstrap/dist/js/bootstrap.min.js')}}"></script>
+<script src="{{url('plugins/iCheck/icheck.min.js')}}"></script>
 </body>
 </html>

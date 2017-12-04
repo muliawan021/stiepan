@@ -19,5 +19,5 @@ Route::get('admin/indexcode','AdminController@indexcode');
 
 Route::get('mahasiswa/registrasi','MahasiswaController@registrasi');
 Route::post('mahasiswa/create','MahasiswaController@create');
-Route::get('mahasiswa/code','MahasiswaController@code');
+Route::get('/','MahasiswaController@code');
 Route::post('mahasiswa/{id}/update','MahasiswaController@update');
