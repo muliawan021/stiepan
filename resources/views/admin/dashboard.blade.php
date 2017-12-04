@@ -15,7 +15,7 @@
 
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
 </head>
-<body class="skin-blue sidebar-mini" >
+<body >
     <script src="{{url('/bower_components/jquery/dist/jquery.min.js')}}"></script>
     <script src="{{url('/bower_components/bootstrap/dist/js/bootstrap.min.js')}}"></script>
     <script src="{{url('/bower_components/jquery-slimscroll/jquery.slimscroll.min.js')}}"></script>
@@ -23,10 +23,15 @@
     <script src="{{url('/dist/js/adminlte.min.js')}}"></script>
     <script src="{{url('/dist/js/demo.js')}}"></script>
 
-    <h2>Dashboard Admin</h2>
-    <section></section>
-    <h4><a href="{{url('admin/newcode')}}"> Kode User Mahasiswa</a></h4>
-    <h4><a href="{{url('admin/indexcode')}}">Daftar Kode User Mahasiswa</a></h4>
+<header class="main-header"> <h1>Dashboard</h1></header>
+    
+    <div class="row" >
+        <div class="col-md-5">
+           <h4> <a href="{{url('admin/newcode')}}" class="" >Kode User Mahasiswa</a></h4>
+        </div>
+    </div>
+    <!-- <h4><a href="{{url('admin/newcode')}}"> Kode User Mahasiswa</a></h4> -->
+    <!-- <h4><a href="{{url('admin/indexcode')}}">Daftar Kode User Mahasiswa</a></h4> -->
 
 </body>
 </html>
